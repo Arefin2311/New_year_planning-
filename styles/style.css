@@ -1,0 +1,19 @@
+/* Header style */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    margin: 215px 245px 5px 845px;
+    font-weight: 700px;
+    font-size: 48px;
+    text-align: right;
+    color: #151414;
+
+}
+.sub-header{
+    margin: 5px 245px 365px 845px;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+   }
