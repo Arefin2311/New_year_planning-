@@ -2,6 +2,7 @@
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+   
 }
 /* Background image */
 .banner{
@@ -58,7 +59,7 @@
     
 }
 .previous-year-text{
-    margin: 10px 216px 29px 600px;
+    margin: 10px 216px 10px 600px;
     color: #151414;
     font-weight: 400;
     font-size: 16px;
@@ -67,6 +68,7 @@
 
 }
 .previous{
+    background-color: ;
     background-image: url('../images/person.png');
     background-repeat: no-repeat;
     width: 600px;
@@ -76,6 +78,10 @@
     background-position: left;
     display: flex;
 }
-.pre-text{
-    margin-left: 90px;
+.pre-text ul{
+    margin-left: 575px;
+    color: #444343;
+    list-style-image: url('../images/check-mark.png');
+    list-style-image: none;
+
 }
