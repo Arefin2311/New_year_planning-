@@ -81,25 +81,21 @@
 .pre-text ul{
     margin-left: 575px;
     color: #444343;
-    list-style-image: url('../images/check-mark.png');
-    list-style-image: none;
-
-
 }
 .title{
-    /* margin: 30px 100px 10px 200px; */
+    margin: 30px 100px 10px 100px;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
     color: #151414;
     margin-bottom: 30px;
-    /* width: 1140px; */
+    
 }
 .plans-container{
     display: flex;
     justify-content: space-between;
     margin: 5% 10%;
-    /* width: 1140px; */
+    
     
 }
 .plans-title{
@@ -110,4 +106,124 @@
 .plans-description{
     font-size: 20px;
     font-weight: 500;
+}
+.contact-section{
+    margin: 5% 10%;
+}
+
+.contact-container{
+    background-image:
+    linear-gradient(90deg,#F15B22 0%, rgba(0, 95, 172, 0) 100%),
+    url('../images/watch.png');
+    width:90%;
+    height: 220px;
+    background-size: cover;
+    color: white;
+    padding:20px 40px;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-top: 130px;
+}
+
+.contact-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.contact-btn{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 19px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    color: #F15B22;
+    background-color: #ffffff;
+    border-style: none;
+    cursor: pointer;
+}
+/* goal section css start  */
+
+.my-goal-section {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+
+.my-goal-section h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+.goal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.goal{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.goal img {
+    width: 100px ;
+    height: 150px;
+    border-radius: 10px;
+}
+/* footer section  */
+
+.footer-container{
+    padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #151414;
+}
+
+
+.footer-title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-details{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-right h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+input{
+    border-color: #ffffff;
+    height: 50px;
+    width: 250px;
+    background-color: #151414;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.subs-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #F15B22;
+    background-color: #ffffff;
+    cursor: pointer;
 }
